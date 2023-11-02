@@ -85,6 +85,14 @@ table tr td{
     background-color: #7c1515;
 }
 
+.success{
+    color:chartreuse;
+}
+
+.error{
+    color:red;
+}
+
 
 /* css for main */
 .main-content{
