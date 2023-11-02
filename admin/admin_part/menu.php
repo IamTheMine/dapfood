@@ -1,3 +1,7 @@
+<?php include('../config/constants.php'); ?>
+
+
+
 <html>
 <head>
     <title>DapFood - Home Page</title>

@@ -36,6 +36,55 @@
 .menu ul li a:hover{
     color: #e7bc4e;
 }
+.tbl-full{
+    width: 100%;
+}
+.tbl-am{
+    width: 30%;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1% 0;
+    text-align: left;
+}
+table tr td{
+    padding: 1%;
+}
+/* ปุ่ม */
+.btn-primary{
+    background-color: #2A9D8F;
+    padding: 1%;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: #0c6056;
+}
+
+.btn-secondary{
+    background-color: #E9C46A;
+    padding: 1%;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-secondary:hover{
+    background-color: #7c5f15;
+}
+
+.btn-danger{
+    background-color: #e96a6a;
+    padding: 1%;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-danger:hover{
+    background-color: #7c1515;
+}
+
 
 /* css for main */
 .main-content{
