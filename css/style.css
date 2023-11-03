@@ -4,6 +4,19 @@
     padding: 0 0;
     font-family: 'ABeeZee', sans-serif;
 }
+
+.logo2 {
+    color: #000000;
+    font-size: 50px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.logo2 span {
+    color: #E9C46A;
+    font-size: 50px;
+    font-weight: 600;
+    text-decoration: none;
+}
 .container{
     width: 80%;
     margin: 0 auto;
@@ -26,7 +39,7 @@
     text-align: left;
 }
 .text-white{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .clearfix{
@@ -69,9 +82,8 @@ h3{
     position: relative;
 }
 .float-text{
-    position: absolute;
-    bottom: 50px;
-    left: 40%;
+    text-align: center;
+    
 }
 fieldset{
     border: 1px solid white;
@@ -80,6 +92,15 @@ fieldset{
     border-radius: 5px;
 }
 
+.error{
+    padding: 2%;
+    color: red;
+}
+
+.success{
+    padding: 2%;
+    color: green;
+}
 
 /* CSSS for navbar section */
 
@@ -104,7 +125,7 @@ fieldset{
 /* CSS for Food SEarch Section */
 
 .food-search{
-    background-image: url(../images/bg.jpg);
+    background-image: url(../images/R1.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

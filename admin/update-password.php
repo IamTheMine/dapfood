@@ -1,6 +1,6 @@
 <?php include('admin_part/menu.php'); ?>
 <div class="main-content">
-    <div class-"wrapper">
+    <div class="wrapper">
         <h1>Change Password</h1>
         <br><br>
 
@@ -19,13 +19,13 @@
                 <tr>
                     <td>Current Password: </td>
                      <td>
-                        <input type="password" name="current_password" placeholder-"Current Password">
+                        <input type="password" name="current_password" placeholder="Current Password">
                     </td>
                 </tr>
                 <tr>
-                    <td>New Password:</td>
+                    <td>New Password: </td>
                      <td>
-                        <input type="password" name="new_password" placeholder-"New Password">
+                        <input type="password" name="new_password" placeholder="New Password">
                      </td>
                 </tr>
                 <tr>

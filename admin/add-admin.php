@@ -1,7 +1,7 @@
 <?php include('admin_part/menu.php'); ?>
 
 <div class="main-content">
-        <div class="wrapper " ">
+        <div class="wrapper">
             <h1>Add admin</h1>
 
             <br><br>
@@ -21,26 +21,26 @@ if(isset($_SESSION['add']))
                     <tr>
                         <td>Full Name: </td>
                         <td>
-                            <input type="text" name="full_name" placeholder="Enter Your Name">
+                            <input type ="text" name ="full_name" placeholder ="Enter Your Name">
                         </td>
                     </tr>
 
                     <tr>
                         <td>Username: </td>
                         <td>
-                            <input type="text" name="username" placeholder="Your Username">
+                            <input type ="text" name ="username" placeholder ="Your Username">
                         </td>
                     </tr>
 
                     <tr>
                         <td>Password: </td>
                         <td>
-                            <input type="password" name="password" placeholder="Enter Your Password">
+                            <input type ="password" name ="password" placeholder ="Enter Your Password">
                         </td>
                     </tr>
                     <tr>
                         <td colspan="2">
-                            <input type="submit" name="submit" value="Add" class="btn-secondary">
+                            <input type ="submit" name ="submit" value ="Add" class ="btn-secondary">
                         </td>
                     </tr>
                 </table>
@@ -80,7 +80,7 @@ if(isset($_SESSION['add']))
             //echo "เข้าสู่ระบบ";
             $_SESSION['add'] = "เข้าสู่ระบบสำเร็จ";
             //เปลี่ยนเส้นทางไปยัง manage admin
-            header("location".SITEURL.'admin/manage-admin.php');
+            header("location:".SITEURL.'admin/manage-admin.php');
 
         }
         else
@@ -88,7 +88,7 @@ if(isset($_SESSION['add']))
             //echo "เข้าสู่ระบบไม่ผ่าน!!!";
             $_SESSION['add'] = "เข้าสู่ระบบไม่สำเร็จ!!";
             //เปลี่ยนเส้นทางไปยัง add admin
-            header("location".SITEURL.'admin/add-admin.php');
+            header("location:".SITEURL.'admin/add-admin.php');
         }
 
     }
