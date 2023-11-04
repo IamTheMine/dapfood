@@ -1,6 +1,5 @@
 <?php include('front/menu.php'); ?>
 
-    <!-- fOOD sEARCH Section Starts Here -->
     <section class="food-search text-center">
         <div class="container">
             

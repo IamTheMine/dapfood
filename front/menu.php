@@ -9,13 +9,11 @@
     <link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Averia+Sans+Libre&family=Syne&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant Website</title>
-
-    <!-- Link our CSS file -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <!-- Navbar Section Starts Here -->
+ 
     <section class="navbar">
         <div class="container">
             <div class="logo">
@@ -33,13 +31,9 @@
                     <li>
                         <a href="<?php echo SITEURL; ?>foods.php">Foods</a>
                     </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
                 </ul>
             </div>
 
             <div class="clearfix"></div>
         </div>
     </section>
-    <!-- Navbar Section Ends Here -->

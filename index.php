@@ -157,6 +157,5 @@
             <a href="#">See All Foods</a>
         </p>
     </section>
-    <!-- fOOD Menu Section Ends Here -->
 
 <?php include('front/footer.php'); ?>

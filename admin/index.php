@@ -19,12 +19,12 @@
             <?php
                 
                 $sql = "SELECT * FROM category_db";
-                
+                //ใช้เก็บผลลัพธ์ที่ได้รับจากการใช้ mysqli_query() ในการส่งคำสั่ง SQL ไปยัง MySQL
                 $res = mysqli_query($conn, $sql);
-                
+                //เพื่อนับจำนวนแถว ส่งคำสั่ง SELECT ไปยัง MySQL
                 $count = mysqli_num_rows($res);
             ?>
-
+                <!-- แสดงค่า -->
                 <h1><?php echo $count; ?></h1>
                 <br />
                 Categories
@@ -64,11 +64,11 @@
             <div class="collum text-center">
                 
                 <?php
-                    
+                    //หาผลรวม (SUM) ของคอลัมน์ "total" จากตาราง "order_db ที่มีสถานะ delivered
                     $sql4 = "SELECT SUM(total) AS Total FROM order_db WHERE status='Delivered'";
                     
                     $res4 = mysqli_query($conn, $sql4);
-                
+                //ดึงข้อมูลจากผลลัพธ์
                     $row4 = mysqli_fetch_assoc($res4);
                 
                     $total_revenue = $row4['Total'];

@@ -5,8 +5,6 @@
 
 ?>
 
-
-
 <html>
 <head>
     <title>DapFood - Home Page</title>

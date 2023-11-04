@@ -87,6 +87,5 @@
         </div>
 
     </section>
-    <!-- fOOD Menu Section Ends Here -->
     
     <?php include('front/footer.php'); ?>
